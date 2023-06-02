@@ -1,0 +1,37 @@
+light:
+  #### Main Lamp ###
+  - name: "Realay-ESP1-P13"
+    unique_id: "esp1_p13"
+    state_topic: "xsanjaya/iot/hgwLO7ZufACg"
+    command_topic: "xsanjaya/iot/hgwLO7ZufACg"
+    payload_on: "hgwLO7ZufACg-13-on"
+    payload_off: "hgwLO7ZufACg-13-off"
+    qos: 1
+    retain: true
+
+    #### Sleep ###
+  - name: "Realay-ESP1-P14"
+    unique_id: "esp1_p14"
+    state_topic: "xsanjaya/iot/hgwLO7ZufACg"
+    command_topic: "xsanjaya/iot/hgwLO7ZufACg"
+    payload_on: "hgwLO7ZufACg-14-on"
+    payload_off: "hgwLO7ZufACg-14-off"
+    qos: 1
+    retain: true
+
+switch:
+  #### sound ###
+  - name: "Realay-ESP1-P27"
+    unique_id: "esp1_p27"
+    state_topic: "xsanjaya/iot/hgwLO7ZufACg"
+    command_topic: "xsanjaya/iot/hgwLO7ZufACg"
+    payload_on: "hgwLO7ZufACg-27-on"
+    payload_off: "hgwLO7ZufACg-27-off"
+    qos: 1
+    retain: true
+
+camera:
+  - name: "Home Camera 1"
+    unique_id: "home_camera_1"
+    topic: "xsanjaya/iot/hgwLO7ZufACg/camera"
+    image_encoding: "b64"

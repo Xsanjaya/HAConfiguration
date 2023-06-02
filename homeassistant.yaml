@@ -1,0 +1,23 @@
+name: Home
+latitude: 32.87336
+longitude: 117.22743
+elevation: 430
+unit_system: metric
+currency: IDR
+time_zone: "Asia/Jakarta"
+
+customize:
+  light.living_room:
+    friendly_name: light
+    entity_picture: https://img.icons8.com/dusk/72/light--v1.png
+# customize_domain:
+#     light:
+#       icon: mdi:home
+#     automation:
+#       initial_state: "off"
+
+#     customize_glob:
+#     "light.kitchen_*":
+#       icon: mdi:description
+#     "scene.month_*_colors":
+#       icon: mdi:other
